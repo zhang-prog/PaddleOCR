@@ -540,7 +540,7 @@ paddleocr formula_recognition_pipeline -i ./general_formula_recognition_001.png 
 运行结果会被打印到终端上，默认配置的 formula_recognition 产线的运行结果如下：
 
 ```bash
-
+result
 ```
 
 运行结果参数说明可以参考[2.2 Python脚本方式集成](#22-python脚本方式集成)中的结果解释。
