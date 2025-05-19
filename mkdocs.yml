@@ -2,7 +2,7 @@ site_name: PaddleOCR 文档
 site_url: https://zhang-prog.github.io/PaddleOCR/
 site_author: PaddleOCR PMC
 site_description:
-  111
+  test
 
 repo_name: zhang-prog/PaddleOCR
 repo_url: https://github.com/zhang-prog/PaddleOCR
