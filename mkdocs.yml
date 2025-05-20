@@ -257,7 +257,7 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 nav:
-  - Home: index.md
+  - Home: ../README.md
   - 快速开始: version3.x/quick_start.md
   - PP-OCRv5: 
     - 使用教程: version3.x/pipeline_usage/OCR.md
