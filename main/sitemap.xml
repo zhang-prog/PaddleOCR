@@ -1343,6 +1343,17 @@
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/main/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -1352,6 +1363,17 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/main/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/deployment/high_performance_inference.html</loc>
@@ -1528,6 +1550,39 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/main/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/version3.x/paddlex/overview.html</loc>
@@ -2988,6 +3043,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -2997,6 +3063,17 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/deployment/high_performance_inference.html</loc>
@@ -3173,6 +3250,39 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/en/version3.x/paddlex/overview.html</loc>
@@ -4627,6 +4737,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -4636,6 +4757,17 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/deployment/high_performance_inference.html</loc>
@@ -4812,6 +4944,39 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ja/version3.x/paddlex/overview.html</loc>
@@ -6266,6 +6431,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -6275,6 +6451,17 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/deployment/high_performance_inference.html</loc>
@@ -6451,6 +6638,39 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ru/version3.x/paddlex/overview.html</loc>
@@ -7905,6 +8125,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -7914,6 +8145,17 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/deployment/high_performance_inference.html</loc>
@@ -8090,6 +8332,39 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/mainko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/hi/version3.x/paddlex/overview.html</loc>
@@ -9544,6 +9819,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/quick_start.html"/>
     </url>
     <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html"/>
+    </url>
+    <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html</loc>
         <lastmod>2025-05-20</lastmod>
         <changefreq>daily</changefreq>
@@ -9553,6 +9839,17 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-OCRv5/PP-OCRv5.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/algorithm/PP-StructureV3/PP-StructureV3.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/deployment/high_performance_inference.html</loc>
@@ -9729,6 +10026,39 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/module_usage/text_recognition.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/module_usage/text_recognition.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/multi_devices_use_guide.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/multi_devices_use_guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/multi_devices_use_guide.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/paddlepaddle_install_NPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_NPU.html"/>
+    </url>
+    <url>
+        <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/paddlepaddle_install_XPU.html</loc>
+        <lastmod>2025-05-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhang-prog.github.io/PaddleOCR/mainen/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://zhang-prog.github.io/PaddleOCR/mainhi/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://zhang-prog.github.io/PaddleOCR/mainja/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://zhang-prog.github.io/PaddleOCR/mainru/version3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://zhang-prog.github.io/PaddleOCR/mainversion3.x/other_devices_support/paddlepaddle_install_XPU.html"/>
     </url>
     <url>
         <loc>https://zhang-prog.github.io/PaddleOCR/main/ko/version3.x/paddlex/overview.html</loc>
