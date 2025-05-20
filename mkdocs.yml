@@ -13,8 +13,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: ./static/images/logo.jpg
-  favicon: ./static/images/logo.jpg
+  logo: version2.x/static/images/logo.jpg
+  favicon: version2.x/static/images/logo.jpg
   custom_dir: overrides
   features:
     - announce.dismiss
@@ -273,9 +273,24 @@ nav:
   - PP-StructureV3: version3.x/pipeline_usage/PP-StructureV3.md
   - PP-ChatOCRv4: version3.x/pipeline_usage/PP-ChatOCRv4.md
   - 模块列表: 
+    - 文档图像方向分类模块: version3.x/module_usage/doc_img_orientation_classification.md
+    - 文档类视觉语言模型模块: version3.x/module_usage/doc_vlm.md
+    - 公式识别模块: version3.x/module_usage/formula_recognition.md
     - 版面区域检测模块: version3.x/module_usage/layout_detection.md
+    - 印章文本检测模块: version3.x/module_usage/seal_text_detection.md
+    - 表格单元格检测模块: version3.x/module_usage/table_cells_detection.md
+    - 表格分类模块: version3.x/module_usage/table_classification.md
+    - 表格结构识别模块: version3.x/module_usage/table_structure_recognition.md
+    - 文本检测模块: version3.x/module_usage/text_detection.md
+    - 文本图像矫正模块: version3.x/module_usage/text_image_unwarping.md
+    - 文本行方向分类模块: version3.x/module_usage/text_line_orientation_classification.md
+    - 文本识别模块: version3.x/module_usage/text_recognition.md
   - 产线列表: 
     - 公式识别产线: version3.x/pipeline_usage/formula_recognition.md
+    - 文档图像预处理产线: version3.x/pipeline_usage/doc_preprocessor.md
+    - 文档理解产线: version3.x/pipeline_usage/doc_understanding.md
+    - 印章文本识别产线: version3.x/pipeline_usage/seal_recognition.md
+    - 通用表格识别v2产线: version3.x/pipeline_usage/table_recognition_v2.md
   - 低代码全流程开发:
       - 概述: version3.x/paddlex/overview.md
       - 快速开始: version3.x/paddlex/quick_start.md
