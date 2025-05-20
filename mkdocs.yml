@@ -131,6 +131,10 @@ plugins:
             文档理解产线: Document Understanding Pipeline
             印章文本识别产线: Seal Text Recognition Pipeline
             通用表格识别v2产线: General Table Recognition v2 Pipeline
+            多硬件使用: Multi-Devices Usage
+            PaddleOCR 多硬件使用指南: PaddleOCR Multi-Devices Usage Guide
+            昇腾 NPU 飞桨安装教程: Ascend NPU PaddlePaddle Installation Tutorial
+            昆仑 XPU 飞桨安装教程: Kunlun XPU PaddlePaddle Installation Tutorial
             其他说明: Other Notes
             PaddleOCR 与 PaddleX: PaddleOCR and PaddleX
             PaddleOCR 3.x 升级说明: PaddleOCR 3.x Upgrade Notes
@@ -288,6 +292,10 @@ nav:
     - 文档理解产线: version3.x/pipeline_usage/doc_understanding.md
     - 印章文本识别产线: version3.x/pipeline_usage/seal_recognition.md
     - 通用表格识别v2产线: version3.x/pipeline_usage/table_recognition_v2.md
+  - 多硬件使用:
+    - PaddleOCR 多硬件使用指南: version3.x/other_devices_support/multi_devices_use_guide.md
+    - 昇腾 NPU 飞桨安装教程: version3.x/other_devices_support/paddlepaddle_install_NPU.md
+    - 昆仑 XPU 飞桨安装教程: version3.x/other_devices_support/paddlepaddle_install_XPU.md
   - 其他说明:
     - PaddleOCR 与 PaddleX: version3.x/paddleocr_and_paddlex.md
     - PaddleOCR 3.x 升级说明: upgrade_notes.md
