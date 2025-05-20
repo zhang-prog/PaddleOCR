@@ -4,31 +4,29 @@ comments: true
 
 ---
 
-# Text Image Rectification Module Usage Tutorial
+# Table Classification Module Usage Tutorial
 
 ## 1. Overview
 
-The primary purpose of text image rectification is to perform geometric transformations on images to correct distortions, inclinations, perspective deformations, etc., in the document images for more accurate subsequent text recognition.
+The Table Classification Module is a key component in computer vision systems, responsible for classifying input table images. The performance of this module directly affects the accuracy and efficiency of the entire table recognition process. The Table Classification Module typically receives table images as input and, using deep learning algorithms, classifies them into predefined categories based on the characteristics and content of the images, such as wired and wireless tables. The classification results from the Table Classification Module serve as output for use in table recognition pipelines.
 
 ## 2. Supported Model List
 
 <table>
-<thead>
 <tr>
 <th>Model</th><th>Model Download Link</th>
-<th>CER</th>
+<th>Top1 Acc(%)</th>
+<th>GPU Inference Time (ms)<br/>[Regular Mode / High-Performance Mode]</th>
+<th>CPU Inference Time (ms)<br/>[Regular Mode / High-Performance Mode]</th>
 <th>Model Storage Size (M)</th>
-<th>Description</th>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td>UVDoc</td><td><a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/UVDoc_infer.tar">Inference Model</a>/<a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_pretrained_model/UVDoc_pretrained.pdparams">Training Model</a></td>
-<td>0.179</td>
-<td>30.3 M</td>
-<td>High-accuracy text image rectification model</td>
+<td>PP-LCNet_x1_0_table_cls</td><td><a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/CLIP_vit_base_patch16_224_infer.tar">Inference Model</a>/<a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_pretrained_model/PP-LCNet_x1_0_table_cls_pretrained.pdparams">Training Model</a></td>
+<td>94.2</td>
+<td>2.35 / 0.47</td>
+<td>4.03 / 1.35</td>
+<td>6.6M</td>
 </tr>
-</tbody>
 </table>
 
 <strong>Test Environment Description:</strong>
@@ -36,7 +34,7 @@ The primary purpose of text image rectification is to perform geometric transfor
   <ul>
       <li><b>Performance Test Environment</b>
           <ul>
-              <li><strong>Test Dataset:</strong> <a href="https://www3.cs.stonybrook.edu/~cvl/docunet.html">DocUNet benchmark</a> dataset.</li>
+              <li><strong>Test Dataset:</strong> Internal evaluation dataset built by PaddleX.</li>
               <li><strong>Hardware Configuration:</strong>
                   <ul>
                       <li>GPU: NVIDIA Tesla T4</li>
@@ -67,7 +65,7 @@ The primary purpose of text image rectification is to perform geometric transfor
         </tr>
         <tr>
             <td>High-Performance Mode</td>
-            <td>Choose the optimal combination of prior precision type and acceleration strategy</td>
+            <td>Optimal combination of prior precision type and acceleration strategy</td>
             <td>FP32 Precision / 8 Threads</td>
             <td>Choose the optimal prior backend (Paddle/OpenVINO/TRT, etc.)</td>
         </tr>
@@ -81,38 +79,40 @@ The primary purpose of text image rectification is to perform geometric transfor
 You can quickly experience it with one command:
 
 ```bash
-paddleocr text_image_unwarping -i https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/doc_test.jpg
+paddleocr table_classification -i https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/table_recognition.jpg
 ```
 
-You can also integrate the model inference from the image rectification module into your project. Before running the following code, please download the [sample image](https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/doc_test.jpg) locally.
+You can also integrate model inference from the table classification module into your project. Before running the following code, please download the [sample image](https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/table_recognition.jpg) locally.
 
 ```python
-from paddleocr import TextImageUnwarping
-model = TextImageUnwarping(model_name="UVDoc")
-output = model.predict("doc_test.jpg", batch_size=1)
+from paddleocr import TableClassification
+model = TableClassification(model_name="PP-LCNet_x1_0_table_cls")
+output = model.predict("table_recognition.jpg", batch_size=1)
 for res in output:
-    res.print()
-    res.save_to_img(save_path="./output/")
-    res.save_to_json(save_path="./output/res.json")
+    res.print(json_format=False)
+    res.save_to_json("./output/res.json")
 ```
 
 After running, the result obtained is:
 
-```bash
-{'res': {'input_path': 'doc_test.jpg', 'page_index': None, 'doctr_img': '...'}}
+```
+{'res': {'input_path': 'table_recognition.jpg', 'page_index': None, 'class_ids': array([0, 1], dtype=int32), 'scores': array([0.84421, 0.15579], dtype=float32), 'label_names': ['wired_table', 'wireless_table']}}
 ```
 
-The meanings of the parameters in the result are as follows:
-- `input_path`: Indicates the path of the image to be rectified
-- `doctr_img`: Indicates the rectified image result. Due to the large amount of data, it is not convenient to print directly, so it is replaced here with `...`. You can use `res.save_to_img()` to save the prediction result as an image, and `res.save_to_json()` to save the prediction result as a json file.
+The parameter meanings are as follows:
+- `input_path`: Path of the input image
+- `page_index`: If the input is a PDF file, it indicates which page of the PDF it is; otherwise, it is `None`
+- `class_ids`: Class IDs of the prediction results
+- `scores`: Confidence scores of the prediction results
+- `label_names`: Class names of the prediction results
 
 The visualized image is as follows:
 
-<img src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/refs/heads/main/images/modules/image_unwarp/doc_test_res.jpg">
+<img src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/refs/heads/main/images/modules/table_classification/01.jpg">
 
 The relevant methods, parameters, etc., are described as follows:
 
-* `TextImageUnwarping` instantiates the image rectification model (taking `UVDoc` as an example here), with specific explanations as follows:
+* `TableClassification` instantiates the table classification model (taking `PP-LCNet_x1_0_table_cls` as an example here), with specific explanations as follows:
 <table>
 <thead>
 <tr>
@@ -127,8 +127,8 @@ The relevant methods, parameters, etc., are described as follows:
 <td><code>model_name</code></td>
 <td>Model Name</td>
 <td><code>str</code></td>
-<td>All model names supported by PaddleX</td>
 <td>None</td>
+<td><code>None</code></td>
 </tr>
 <tr>
 <td><code>model_dir</code></td>
@@ -162,7 +162,7 @@ The relevant methods, parameters, etc., are described as follows:
 
 * Among them, `model_name` must be specified. After specifying `model_name`, the default model parameters built into PaddleX are used. When `model_dir` is specified, the user-defined model is used.
 
-* Call the `predict()` method of the image rectification model for inference prediction. This method will return a result list. Additionally, this module also provides a `predict_iter()` method. Both methods are consistent in terms of parameter acceptance and result return. The difference is that `predict_iter()` returns a `generator`, which can process and obtain prediction results step by step, suitable for handling large datasets or scenarios where memory saving is desired. You can choose to use either of these methods according to your actual needs. The `predict()` method has parameters `input` and `batch_size`, with specific explanations as follows:
+* Call the `predict()` method of the table classification model for inference prediction. This method will return a result list. Additionally, this module also provides a `predict_iter()` method. Both methods are consistent in terms of parameter acceptance and result return. The difference is that `predict_iter()` returns a `generator`, which can process and obtain prediction results step by step, suitable for handling large datasets or scenarios where memory saving is desired. You can choose to use either of these methods according to your actual needs. The `predict()` method has parameters `input` and `batch_size`, with specific explanations as follows:
 
 <table>
 <thead>
@@ -177,12 +177,12 @@ The relevant methods, parameters, etc., are described as follows:
 <tr>
 <td><code>input</code></td>
 <td>Data to be predicted, supports multiple input types</td>
-<td><code>Python Var</code>/<code>str</code>/<code>dict</code>/<code>list</code></td>
+<td><code>Python Var</code>/<code>str</code>/<code>list</code></td>
 <td>
 <ul>
   <li><b>Python Variable</b>, such as <code>numpy.ndarray</code> representing image data</li>
   <li><b>File Path</b>, such as the local path of an image file: <code>/root/data/img.jpg</code></li>
-  <li><b>URL Link</b>, such as the network URL of an image file: <a href = "https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/general_ocr_rec_001.png">Example</a></li>
+  <li><b>URL Link</b>, such as the network URL of an image file: <a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/table_recognition.jpg">Example</a></li>
   <li><b>Local Directory</b>, which should contain data files to be predicted, such as the local path: <code>/root/data/</code></li>
   <li><b>List</b>, where list elements must be of the above types, such as <code>[numpy.ndarray, numpy.ndarray]</code>, <code>["/root/data/img1.jpg", "/root/data/img2.jpg"]</code>, <code>["/root/data1", "/root/data2"]</code></li>
 </ul>
@@ -251,14 +251,6 @@ The relevant methods, parameters, etc., are described as follows:
 <td>Controls whether to escape non-<code>ASCII</code> characters into <code>Unicode</code>. When set to <code>True</code>, all non-<code>ASCII</code> characters will be escaped; <code>False</code> will retain the original characters, effective only when <code>format_json</code> is <code>True</code></td>
 <td><code>False</code></td>
 </tr>
-<tr>
-<td><code>save_to_img()</code></td>
-<td>Save the result as an image format file</td>
-<td><code>save_path</code></td>
-<td><code>str</code></td>
-<td>The path to save the file. When specified as a directory, the saved file is named consistent with the input file type.</td>
-<td>None</td>
-</tr>
 </table>
 
 * Additionally, the result can be obtained through attributes that provide the visualized images with results and the prediction results, as follows:
@@ -276,13 +268,14 @@ The relevant methods, parameters, etc., are described as follows:
 </tr>
 <tr>
 <td rowspan = "1"><code>img</code></td>
-<td rowspan = "1">Get the visualized image in <code>dict</code> format</td>
+<td rowspan = "1">Get the visualized image</td>
 </tr>
-
 </table>
+
+For more information on how to use PaddleX's single-model inference API, you can refer to the [PaddleX Single Model Python Script Usage Instructions](../../instructions/model_python_API.md).
 
 ## 4. Secondary Development
 
-The current module does not support fine-tuning training and only supports inference integration. Concerning fine-tuning training for this module, there are plans to support it in the future.
+Since PaddleOCR does not directly provide training for the table classification module, if you need to train a table classification model, you can refer to the [PaddleX Table Classification Module Secondary Development](https://paddlepaddle.github.io/PaddleX/latest/module_usage/tutorials/ocr_modules/table_classification.html#_4) section for training. The trained model can be seamlessly integrated into the PaddleOCR API for inference.
 
 ## 5. FAQ
