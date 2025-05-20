@@ -170,6 +170,69 @@ plugins:
             社区: Community
             社区贡献: Community Contribution
             附录: Appendix
+            快速开始: Quick Start
+
+            PP-OCRv5: PP-OCRv5
+            产线介绍: Pipeline Introduction
+            PP-OCRv5简介: PP-OCRv5 Introduction
+            PP-StructureV3: PP-StructureV3
+            PP-StructureV3简介: PP-StructureV3 Introduction
+            PP-ChatOCRv4: PP-ChatOCRv4
+            PP-ChatOCRv4简介: PP-ChatOCRv4 Introduction
+            推理部署: Model Deploy
+            高性能推理: High-Performance Inference
+            获取onnx模型: Obtaining ONNX Models
+            端侧部署: Edge Deployment
+            服务化部署: Serving Deployment
+            模块列表: Module List
+            文档图像方向分类模块: Document Image Orientation Classification Module
+            文档类视觉语言模型模块: Document Visual Language Model Module
+            公式识别模块: Formula Recognition Module
+            版面区域检测模块: Layout Area Detection Module
+            印章文本检测模块: Seal Text Detection Module
+            表格单元格检测模块: Table Cells Detection Module
+            表格分类模块: Table Classification Module
+            表格结构识别模块: Table Structure Recognition Module
+            文本检测模块: Text Detection Module
+            文本图像矫正模块: Text Image Unwarping Module
+            文本行方向分类模块: Text Line Orientation Classification Module
+            文本识别模块: Text Recognition Module
+            产线列表: Pipeline List
+            公式识别产线: Formula Recognition Pipeline
+            文档图像预处理产线: Document Image Preprocessing Pipeline
+            文档理解产线: Document Understanding Pipeline
+            印章文本识别产线: Seal Text Recognition Pipeline
+            通用表格识别v2产线: General Table Recognition v2 Pipeline
+            其他说明: Other Notes
+            PaddleOCR 与 PaddleX: PaddleOCR and PaddleX
+            PaddleOCR 3.x 升级说明: PaddleOCR 3.x Upgrade Notes
+            低代码全流程开发: Low-Code Full-Process Development
+            概述: Overview
+            数据标注与合成&数据集: Data Annotation & Synthesis and Datasets
+            其它数据标注工具: Other Data Annotation Tools
+            其它数据合成工具: Other Data Synthesis Tools
+            通用中英文OCR数据集: General Chinese and English OCR Dataset
+            手写中文OCR数据集: Handwritten Chinese OCR Dataset
+            垂类多语言OCR数据集: Vertical and Multilingual OCR Dataset
+            版面分析数据集: Layout Analysis Dataset
+            表格识别数据集: Table Recognition Dataset
+            关键信息提取数据集: Key Information Extraction Dataset
+            近期更新: Recent Updates
+            版本2.x: Version 2.x
+            模型列表: Model List
+            基于Python预测引擎推理: Inference Based on Python Prediction Engine
+            基于C++预测引擎推理: Inference Based on C++ Prediction Engine
+            Visual Studio 2019 Community CMake 编译指南: Visual Studio 2019 Community CMake Compilation Guide
+            服务化部署: Service Deployment
+            Android部署: Android Deployment
+            端侧部署: On-Device Deployment
+            Paddle2ONNX模型转化与预测: Paddle2ONNX Model Conversion and Prediction
+            云上飞桨部署工具: Cloud Paddle Deployment Tools
+            Benchmark: Benchmark
+            常见问题: FAQ
+            社区: Community
+            社区贡献: Community Contribution
+            附录: Appendix
         - locale: ja
           name: 日本語
           site_name: PaddleOCR ドキュメント
@@ -261,17 +324,22 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - 快速开始: version3.x/quick_start.md
-  - 近期更新: update/update.md 
+  - PP-OCRv5: 
+    - 产线介绍: version3.x/pipeline_usage/OCR.md
+    - PP-OCRv5简介: version3.x/algorithm/PP-OCRv5/PP-OCRv5.md
+  - PP-StructureV3: 
+    - 产线介绍: version3.x/pipeline_usage/PP-StructureV3.md
+    - PP-StructureV3简介: version3.x/algorithm/PP-StructureV3/PP-StructureV3.md
+  - PP-ChatOCRv4: 
+    - 产线介绍: version3.x/pipeline_usage/PP-ChatOCRv4.md
+    - PP-ChatOCRv4简介: version3.x/algorithm/PP-ChatOCRv4/PP-ChatOCRv4.md
   - 推理部署: 
     - 高性能推理: version3.x/deployment/high_performance_inference.md
     - 获取onnx模型: version3.x/deployment/obtaining_onnx_models.md
     - 端侧部署: version3.x/deployment/on_device_deployment.md
     - 服务化部署: version3.x/deployment/serving.md
-  - PP-OCRv5: version3.x/pipeline_usage/OCR.md
-  - PP-StructureV3: version3.x/pipeline_usage/PP-StructureV3.md
-  - PP-ChatOCRv4: version3.x/pipeline_usage/PP-ChatOCRv4.md
   - 模块列表: 
     - 文档图像方向分类模块: version3.x/module_usage/doc_img_orientation_classification.md
     - 文档类视觉语言模型模块: version3.x/module_usage/doc_vlm.md
@@ -291,6 +359,9 @@ nav:
     - 文档理解产线: version3.x/pipeline_usage/doc_understanding.md
     - 印章文本识别产线: version3.x/pipeline_usage/seal_recognition.md
     - 通用表格识别v2产线: version3.x/pipeline_usage/table_recognition_v2.md
+  - 其他说明:
+    - PaddleOCR 与 PaddleX: version3.x/paddleocr_and_paddlex.md
+    - PaddleOCR 3.x 升级说明: upgrade_notes.md
   - 低代码全流程开发:
       - 概述: version3.x/paddlex/overview.md
       - 快速开始: version3.x/paddlex/quick_start.md
@@ -304,9 +375,10 @@ nav:
     - 版面分析数据集: datasets/layout_datasets.md
     - 表格识别数据集: datasets/table_datasets.md
     - 关键信息提取数据集: datasets/kie_datasets.md
+  - 近期更新: update/update.md 
   - version2.x:
     - 概述: version2.x/legacy/index.md
-    - 模型列表: version2.x/legacy/model_list.md
+    - 模型列表: version2.x/legacy/model_list_2.x.md
     - 基于Python预测引擎推理: version2.x/legacy/python_infer.md
     - 基于C++预测引擎推理: version2.x/legacy/cpp_infer.md
     - Visual Studio 2019 Community CMake 编译指南: version2.x/legacy/windows_vs2019_build.md
